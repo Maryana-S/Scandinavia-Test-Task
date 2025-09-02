@@ -1,0 +1,99 @@
+{
+  "uid" : "600f5dbf0fe40ee2",
+  "name" : "Запрос списка постов",
+  "fullName" : "tests.GetPostsTest.getAllPostsSuccessTest",
+  "historyId" : "b391bd188280f1eed48b5897e694fdfa",
+  "time" : {
+    "start" : 1756807162995,
+    "stop" : 1756807163235,
+    "duration" : 240
+  },
+  "description" : "Отправка GET запроса на эндпоинт /posts, получение списка всех постов",
+  "descriptionHtml" : "<p>Отправка GET запроса на эндпоинт /posts, получение списка всех постов</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Отправка GET запроса на эндпоинт /posts, получение списка всех постов",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Предустановка",
+      "time" : {
+        "start" : 1756807162995,
+        "stop" : 1756807162995,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка GET запроса на эндпоинт /posts. Получение списка постов",
+      "time" : {
+        "start" : 1756807162995,
+        "stop" : 1756807163219,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.GetPostsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getAllPostsSuccessTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.GetPostsTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "45464@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "600f5dbf0fe40ee2.json",
+  "parameterValues" : [ ]
+}

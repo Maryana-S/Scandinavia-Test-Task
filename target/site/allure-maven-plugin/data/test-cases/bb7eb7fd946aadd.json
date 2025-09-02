@@ -1,0 +1,171 @@
+{
+  "uid" : "bb7eb7fd946aadd",
+  "name" : "Успешное обновление значения поля body",
+  "fullName" : "tests.PatchPostsTest.patchBodySuccessTest",
+  "historyId" : "56b641856f902f88186bb0d0ecc34aab",
+  "time" : {
+    "start" : 1756807164178,
+    "stop" : 1756807165460,
+    "duration" : 1282
+  },
+  "description" : "Отправка PATCH запроса на эндпоинт /posts/{id}, обновление значения поля body",
+  "descriptionHtml" : "<p>Отправка PATCH запроса на эндпоинт /posts/{id}, обновление значения поля body</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Отправка PATCH запроса на эндпоинт /posts/{id}, обновление значения поля body",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Предустановка",
+      "time" : {
+        "start" : 1756807164178,
+        "stop" : 1756807164178,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Инициализация параметров",
+      "time" : {
+        "start" : 1756807164178,
+        "stop" : 1756807164508,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка POST запроса на эндпоинт /posts. Создание поста",
+        "time" : {
+          "start" : 1756807164178,
+          "stop" : 1756807164493,
+          "duration" : 315
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "postsRequest",
+          "value" : "PostsRequest(title=QKDbkTDwKX, body=UU6TQqjEoiKkAc8vocRyvPYPP, userId=2)"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка PATCH запроса на эндпоинт /posts. Частичное обновление поста",
+      "time" : {
+        "start" : 1756807164508,
+        "stop" : 1756807165192,
+        "duration" : 684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "patchData",
+        "value" : "{body=iOxRxxOEIGVQvPfSRuwN}"
+      }, {
+        "name" : "postId",
+        "value" : "101"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление созданных постов",
+      "time" : {
+        "start" : 1756807165194,
+        "stop" : 1756807165460,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка DELETE запроса на эндпоинт /posts. Удаление поста",
+        "time" : {
+          "start" : 1756807165194,
+          "stop" : 1756807165460,
+          "duration" : 266
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "postId",
+          "value" : "101"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PatchPostsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "patchBodySuccessTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.PatchPostsTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "45464@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb7eb7fd946aadd.json",
+  "parameterValues" : [ ]
+}

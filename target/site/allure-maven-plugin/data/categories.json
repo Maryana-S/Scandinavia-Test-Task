@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <404> but was <201>.\n",
+      "children" : [ {
+        "name" : "Создание поста с несуществующим значением userId",
+        "uid" : "d284fad93a4b2728",
+        "parentUid" : "782444d398e1252caf5a67443bcec2f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1756807155942,
+          "stop" : 1756807158882,
+          "duration" : 2940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "782444d398e1252caf5a67443bcec2f1"
+    }, {
+      "name" : "1 expectation failed.\nExpected status code <404> but was <200>.\n",
+      "children" : [ {
+        "name" : "Удаление поста с несуществующим id",
+        "uid" : "7e93c564c2154a7b",
+        "parentUid" : "9d2de2ceab9cc49841510f4abdd9fbb6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1756807162568,
+          "stop" : 1756807162993,
+          "duration" : 425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d2de2ceab9cc49841510f4abdd9fbb6"
+    }, {
+      "name" : "1 expectation failed.\nExpected status code <400> but was <200>.\n",
+      "children" : [ {
+        "name" : "Отображение ошибки 400 BAD REQUEST обновление значения поля id",
+        "uid" : "434bd05fe9376f90",
+        "parentUid" : "3939f6cbbc4fe99ffe07188676b4bed3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1756807168605,
+          "stop" : 1756807169496,
+          "duration" : 891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3939f6cbbc4fe99ffe07188676b4bed3"
+    }, {
+      "name" : "1 expectation failed.\nExpected status code <404> but was <500>.\n",
+      "children" : [ {
+        "name" : "Отображение ошибки 404 NOT FOUND при обновлении существующего поста при отправке корректных параметров в теле запроса и несуществующего id",
+        "uid" : "955a3d1faaa577ca",
+        "parentUid" : "c05b3394732795fbce310b6de4bbe476",
+        "status" : "failed",
+        "time" : {
+          "start" : 1756807170730,
+          "stop" : 1756807172710,
+          "duration" : 1980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c05b3394732795fbce310b6de4bbe476"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

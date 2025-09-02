@@ -1,0 +1,150 @@
+{
+  "uid" : "ec74d1119d6b0cdb",
+  "name" : "Успешное создание поста без заголовка title",
+  "fullName" : "tests.CreatePostsTest.createPostsEmptyTitleTest",
+  "historyId" : "66086fc1eeaf212e8d021ccd3375547d",
+  "time" : {
+    "start" : 1756807158953,
+    "stop" : 1756807160433,
+    "duration" : 1480
+  },
+  "description" : "Отправка POST запроса на эндпоинт /posts c пустым значением в поле title",
+  "descriptionHtml" : "<p>Отправка POST запроса на эндпоинт /posts c пустым значением в поле title</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Отправка POST запроса на эндпоинт /posts c пустым значением в поле title",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Предустановка",
+      "time" : {
+        "start" : 1756807158954,
+        "stop" : 1756807158954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Инициализация параметров: title, body, userId",
+      "time" : {
+        "start" : 1756807158954,
+        "stop" : 1756807158954,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка POST запроса на эндпоинт /posts. Создание поста",
+      "time" : {
+        "start" : 1756807158954,
+        "stop" : 1756807159234,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "postsRequest",
+        "value" : "PostsRequest(title=null, body=8WfLyl9NITFBJvmu6PsIUE9EU, userId=2)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление созданных запросов",
+      "time" : {
+        "start" : 1756807160114,
+        "stop" : 1756807160433,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка DELETE запроса на эндпоинт /posts. Удаление поста",
+        "time" : {
+          "start" : 1756807160115,
+          "stop" : 1756807160433,
+          "duration" : 318
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "postId",
+          "value" : "101"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.CreatePostsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createPostsEmptyTitleTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.CreatePostsTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "45464@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec74d1119d6b0cdb.json",
+  "parameterValues" : [ ]
+}

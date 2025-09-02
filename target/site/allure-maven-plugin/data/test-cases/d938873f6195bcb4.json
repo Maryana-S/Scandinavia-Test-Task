@@ -1,0 +1,132 @@
+{
+  "uid" : "d938873f6195bcb4",
+  "name" : "Удаление поста по id",
+  "fullName" : "tests.DeletePostsTest.deletePostByIdSuccessTest",
+  "historyId" : "cb2d7730f574cf9df6bd37488563593c",
+  "time" : {
+    "start" : 1756807162144,
+    "stop" : 1756807162567,
+    "duration" : 423
+  },
+  "description" : "Отправка DELETE запроса на эндпоинт /posts c существующим значением id",
+  "descriptionHtml" : "<p>Отправка DELETE запроса на эндпоинт /posts c существующим значением id</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Отправка DELETE запроса на эндпоинт /posts c существующим значением id",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Предустановка",
+      "time" : {
+        "start" : 1756807162144,
+        "stop" : 1756807162144,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Инициализация пааметра postId",
+      "time" : {
+        "start" : 1756807162144,
+        "stop" : 1756807162322,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка GET запроса на эндпоинт /posts. Получение списка постов",
+        "time" : {
+          "start" : 1756807162144,
+          "stop" : 1756807162317,
+          "duration" : 173
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка DELETE запроса на эндпоинт /posts. Удаление поста",
+      "time" : {
+        "start" : 1756807162322,
+        "stop" : 1756807162566,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "postId",
+        "value" : "17"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.DeletePostsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletePostByIdSuccessTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.DeletePostsTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "45464@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d938873f6195bcb4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "353868230802f010",
+  "name" : "Успешное создание поста",
+  "fullName" : "tests.CreatePostsTest.createPostsSuccessTest",
+  "historyId" : "339950bd694bf607592830d4a6bd4759",
+  "time" : {
+    "start" : 1756807161542,
+    "stop" : 1756807162141,
+    "duration" : 599
+  },
+  "description" : "Отправка POST запроса на эндпоинт /posts c корректными значениями title, body, userId",
+  "descriptionHtml" : "<p>Отправка POST запроса на эндпоинт /posts c корректными значениями title, body, userId</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Отправка POST запроса на эндпоинт /posts c корректными значениями title, body, userId",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Предустановка",
+      "time" : {
+        "start" : 1756807161542,
+        "stop" : 1756807161542,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Инициализация параметров: title, body, userId",
+      "time" : {
+        "start" : 1756807161542,
+        "stop" : 1756807161542,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка POST запроса на эндпоинт /posts. Создание поста",
+      "time" : {
+        "start" : 1756807161542,
+        "stop" : 1756807161845,
+        "duration" : 303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "postsRequest",
+        "value" : "PostsRequest(title=uszknXurYc, body=ezYKMI6nT20DXFjbjb2mZ4HsG, userId=1)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление созданных запросов",
+      "time" : {
+        "start" : 1756807161859,
+        "stop" : 1756807162141,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка DELETE запроса на эндпоинт /posts. Удаление поста",
+        "time" : {
+          "start" : 1756807161859,
+          "stop" : 1756807162141,
+          "duration" : 282
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "postId",
+          "value" : "101"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.CreatePostsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createPostsSuccessTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.CreatePostsTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "45464@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "353868230802f010.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,171 @@
+{
+  "uid" : "a968030dd74d2eea",
+  "name" : "Успешное обновление существующего поста при отправке корректных параметров в теле запроса и существующего id",
+  "fullName" : "tests.PutPostsTest.putPostsSuccessTest",
+  "historyId" : "f04464dc6d74336577d313144e02453f",
+  "time" : {
+    "start" : 1756807172719,
+    "stop" : 1756807173592,
+    "duration" : 873
+  },
+  "description" : "Отправка PUT запроса на эндпоинт /posts/{id}",
+  "descriptionHtml" : "<p>Отправка PUT запроса на эндпоинт /posts/{id}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Отправка PUT запроса на эндпоинт /posts/{id}",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Предустановка",
+      "time" : {
+        "start" : 1756807172719,
+        "stop" : 1756807172719,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Инициализация параметров",
+      "time" : {
+        "start" : 1756807172719,
+        "stop" : 1756807173044,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка POST запроса на эндпоинт /posts. Создание поста",
+        "time" : {
+          "start" : 1756807172719,
+          "stop" : 1756807173044,
+          "duration" : 325
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "postsRequest",
+          "value" : "PostsRequest(title=jvccNlpiev, body=XpCL2gqBMtxkxLC3cDqnO771M, userId=9)"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка PUT запроса на эндпоинт /posts. Обновление поста",
+      "time" : {
+        "start" : 1756807173044,
+        "stop" : 1756807173309,
+        "duration" : 265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "postsRequest",
+        "value" : "PostsRequest(title=ihIcyvaWHH, body=Hjv00GmDR7Sgt8mGM7qpFP9xZ, userId=7)"
+      }, {
+        "name" : "postId",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление созданных постов",
+      "time" : {
+        "start" : 1756807173309,
+        "stop" : 1756807173579,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка DELETE запроса на эндпоинт /posts. Удаление поста",
+        "time" : {
+          "start" : 1756807173309,
+          "stop" : 1756807173579,
+          "duration" : 270
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "postId",
+          "value" : "101"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PutPostsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "putPostsSuccessTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.PutPostsTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "45464@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a968030dd74d2eea.json",
+  "parameterValues" : [ ]
+}

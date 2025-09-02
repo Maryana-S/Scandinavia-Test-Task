@@ -1,0 +1,171 @@
+[ {
+  "uid" : "a65186cd13c4b199",
+  "name" : "Успешное обновление существующего поста при отправке запроса без поля title",
+  "time" : {
+    "start" : 1756807169512,
+    "stop" : 1756807170728,
+    "duration" : 1216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "353868230802f010",
+  "name" : "Успешное создание поста",
+  "time" : {
+    "start" : 1756807161542,
+    "stop" : 1756807162141,
+    "duration" : 599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec74d1119d6b0cdb",
+  "name" : "Успешное создание поста без заголовка title",
+  "time" : {
+    "start" : 1756807158953,
+    "stop" : 1756807160433,
+    "duration" : 1480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2358308a1dad62ef",
+  "name" : "Успешное обновление значения поля userId",
+  "time" : {
+    "start" : 1756807167699,
+    "stop" : 1756807168593,
+    "duration" : 894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb7eb7fd946aadd",
+  "name" : "Успешное обновление значения поля body",
+  "time" : {
+    "start" : 1756807164178,
+    "stop" : 1756807165460,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "600f5dbf0fe40ee2",
+  "name" : "Запрос списка постов",
+  "time" : {
+    "start" : 1756807162995,
+    "stop" : 1756807163235,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e93c564c2154a7b",
+  "name" : "Удаление поста с несуществующим id",
+  "time" : {
+    "start" : 1756807162568,
+    "stop" : 1756807162993,
+    "duration" : 425
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "955a3d1faaa577ca",
+  "name" : "Отображение ошибки 404 NOT FOUND при обновлении существующего поста при отправке корректных параметров в теле запроса и несуществующего id",
+  "time" : {
+    "start" : 1756807170730,
+    "stop" : 1756807172710,
+    "duration" : 1980
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef7f242c44659d29",
+  "name" : "Запрос поста с несуществующим id",
+  "time" : {
+    "start" : 1756807163604,
+    "stop" : 1756807164178,
+    "duration" : 574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7c66fe1058b5aa0",
+  "name" : "Успешное создание поста без id пользователя userId",
+  "time" : {
+    "start" : 1756807160443,
+    "stop" : 1756807160993,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a968030dd74d2eea",
+  "name" : "Успешное обновление существующего поста при отправке корректных параметров в теле запроса и существующего id",
+  "time" : {
+    "start" : 1756807172719,
+    "stop" : 1756807173592,
+    "duration" : 873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "434bd05fe9376f90",
+  "name" : "Отображение ошибки 400 BAD REQUEST обновление значения поля id",
+  "time" : {
+    "start" : 1756807168605,
+    "stop" : 1756807169496,
+    "duration" : 891
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "364ed0bb894639ca",
+  "name" : "Запрос поста по id",
+  "time" : {
+    "start" : 1756807163237,
+    "stop" : 1756807163602,
+    "duration" : 365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d938873f6195bcb4",
+  "name" : "Удаление поста по id",
+  "time" : {
+    "start" : 1756807162144,
+    "stop" : 1756807162567,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53d8118ea1ddf62c",
+  "name" : "Успешное создание поста без тела body",
+  "time" : {
+    "start" : 1756807160996,
+    "stop" : 1756807161542,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d284fad93a4b2728",
+  "name" : "Создание поста с несуществующим значением userId",
+  "time" : {
+    "start" : 1756807155942,
+    "stop" : 1756807158882,
+    "duration" : 2940
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac03e667620e3a62",
+  "name" : "Успешное обновление значения поля title",
+  "time" : {
+    "start" : 1756807165461,
+    "stop" : 1756807167696,
+    "duration" : 2235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

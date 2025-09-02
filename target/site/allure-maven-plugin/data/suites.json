@@ -1,0 +1,246 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.CreatePostsTest",
+    "children" : [ {
+      "name" : "Создание поста с несуществующим значением userId",
+      "uid" : "d284fad93a4b2728",
+      "parentUid" : "9ff6304746edeb098b8ed3cabdf9c8d2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1756807155942,
+        "stop" : 1756807158882,
+        "duration" : 2940
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное создание поста без заголовка title",
+      "uid" : "ec74d1119d6b0cdb",
+      "parentUid" : "9ff6304746edeb098b8ed3cabdf9c8d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807158953,
+        "stop" : 1756807160433,
+        "duration" : 1480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное создание поста без id пользователя userId",
+      "uid" : "f7c66fe1058b5aa0",
+      "parentUid" : "9ff6304746edeb098b8ed3cabdf9c8d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807160443,
+        "stop" : 1756807160993,
+        "duration" : 550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное создание поста без тела body",
+      "uid" : "53d8118ea1ddf62c",
+      "parentUid" : "9ff6304746edeb098b8ed3cabdf9c8d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807160996,
+        "stop" : 1756807161542,
+        "duration" : 546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное создание поста",
+      "uid" : "353868230802f010",
+      "parentUid" : "9ff6304746edeb098b8ed3cabdf9c8d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807161542,
+        "stop" : 1756807162141,
+        "duration" : 599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9ff6304746edeb098b8ed3cabdf9c8d2"
+  }, {
+    "name" : "tests.DeletePostsTest",
+    "children" : [ {
+      "name" : "Удаление поста по id",
+      "uid" : "d938873f6195bcb4",
+      "parentUid" : "8bb76ee65b83d8e7e73c8fde7cf43e88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807162144,
+        "stop" : 1756807162567,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Удаление поста с несуществующим id",
+      "uid" : "7e93c564c2154a7b",
+      "parentUid" : "8bb76ee65b83d8e7e73c8fde7cf43e88",
+      "status" : "failed",
+      "time" : {
+        "start" : 1756807162568,
+        "stop" : 1756807162993,
+        "duration" : 425
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8bb76ee65b83d8e7e73c8fde7cf43e88"
+  }, {
+    "name" : "tests.GetPostsTest",
+    "children" : [ {
+      "name" : "Запрос списка постов",
+      "uid" : "600f5dbf0fe40ee2",
+      "parentUid" : "e5f6908b48162edf1d1d95510dc8ca72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807162995,
+        "stop" : 1756807163235,
+        "duration" : 240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Запрос поста по id",
+      "uid" : "364ed0bb894639ca",
+      "parentUid" : "e5f6908b48162edf1d1d95510dc8ca72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807163237,
+        "stop" : 1756807163602,
+        "duration" : 365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Запрос поста с несуществующим id",
+      "uid" : "ef7f242c44659d29",
+      "parentUid" : "e5f6908b48162edf1d1d95510dc8ca72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807163604,
+        "stop" : 1756807164178,
+        "duration" : 574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e5f6908b48162edf1d1d95510dc8ca72"
+  }, {
+    "name" : "tests.PatchPostsTest",
+    "children" : [ {
+      "name" : "Успешное обновление значения поля body",
+      "uid" : "bb7eb7fd946aadd",
+      "parentUid" : "afc2390fd2139d479ba5edbf1d52244a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807164178,
+        "stop" : 1756807165460,
+        "duration" : 1282
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное обновление значения поля title",
+      "uid" : "ac03e667620e3a62",
+      "parentUid" : "afc2390fd2139d479ba5edbf1d52244a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807165461,
+        "stop" : 1756807167696,
+        "duration" : 2235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное обновление значения поля userId",
+      "uid" : "2358308a1dad62ef",
+      "parentUid" : "afc2390fd2139d479ba5edbf1d52244a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807167699,
+        "stop" : 1756807168593,
+        "duration" : 894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Отображение ошибки 400 BAD REQUEST обновление значения поля id",
+      "uid" : "434bd05fe9376f90",
+      "parentUid" : "afc2390fd2139d479ba5edbf1d52244a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1756807168605,
+        "stop" : 1756807169496,
+        "duration" : 891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "afc2390fd2139d479ba5edbf1d52244a"
+  }, {
+    "name" : "tests.PutPostsTest",
+    "children" : [ {
+      "name" : "Успешное обновление существующего поста при отправке запроса без поля title",
+      "uid" : "a65186cd13c4b199",
+      "parentUid" : "dd9b078fd74bb34a475de741950300e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807169512,
+        "stop" : 1756807170728,
+        "duration" : 1216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Отображение ошибки 404 NOT FOUND при обновлении существующего поста при отправке корректных параметров в теле запроса и несуществующего id",
+      "uid" : "955a3d1faaa577ca",
+      "parentUid" : "dd9b078fd74bb34a475de741950300e8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1756807170730,
+        "stop" : 1756807172710,
+        "duration" : 1980
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное обновление существующего поста при отправке корректных параметров в теле запроса и существующего id",
+      "uid" : "a968030dd74d2eea",
+      "parentUid" : "dd9b078fd74bb34a475de741950300e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1756807172719,
+        "stop" : 1756807173592,
+        "duration" : 873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dd9b078fd74bb34a475de741950300e8"
+  } ]
+}
